@@ -1,0 +1,39 @@
+.banner-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    left: 35%;
+}
+
+.text-area {
+    background-image: url(images/plane.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.postman {
+    background-image: url(images/postman.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.card:hover{
+    border: 2px solid red;
+    box-shadow: 20px 20px 20px gray;
+}
+nav a:hover{
+    border-bottom: 2px solid yellow;
+}
+/* ===page2 css=== */
+.image img:hover{
+    box-shadow: 20px 20px 20px rgb(54, 52, 52);
+    border: 2px solid red;
+    height: 200px
+}
+.btn:hover{
+    background-color: green;
+}

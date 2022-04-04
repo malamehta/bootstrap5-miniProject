@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="h3">OUR</span> tour & travel </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#whyus">Why us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contactus">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ===carousel=== -->
+        <div id="bgSlide" class="carousel slide w-100 vh-100 banner-img " data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg3.jpg" alt="Los Angeles" class="d-block" style="width:100% ;height: 100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg1.jpg" alt="Chicago" class="d-block" style="width:100%;height: 100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg2.jpg" alt="New York" class="d-block" style="width:100%;height: 100vh;">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#bgSlide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#bgSlide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="content text-center text-white position-absolute top-50  ">
+                <h3> Let Us Take You to Your</h3>
+                <h1>Dream Destination</h1>
+                <a href="page2.html"  class="btn btn-danger">click here to see more</a>
+            </div>
+        </div>
+    <!-- ====trending holiday destination========= -->
+   
+        <div class="text-center mt-5 text-primary">
+            <h2>TOP TRENDING HOLIDAY DESTINATION</h2>
+        </div>
+        <section class="container d-flex mt-5 ">
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="images/pashupati.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Pasupatinath temple</h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="images/mounteverest.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Mount Everest</h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/ramjanki.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Ramjanki Temple</h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="container d-flex mt-3">
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="images/swayambhunath.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Swayambhunath Temple</h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+            <div class="card me-2" style="width:400px">
+                <img class="card-img-top" src="images/Adventure.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">pokhara </h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/Davis-Falls.webp" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Davis Falls</h4>
+                    <a href="#" class="btn btn-info">See more related picture...</a>
+                </div>
+            </div>
+
+        </section>
+        <!-- ========about us========== -->
+
+        <div class="text-center mt-5 text-primary">
+            <h2 id="aboutus">ABOUT US</h2>
+        </div>
+        <section class=" container mt-4">
+            <div class="row">
+                <div class="col-7 ">
+                    <h2 class="text-decoration-underline ">Travel with Our Tour and Travels Agency</h2>
+                    <p class="text-area h-75  text-white shadow-lg mt-3">Our Tour and Travels founded in 1999 - Nepalese
+                        travel agency operators for fulfill your complete travel requirement. Find travel in Nepal, Our
+                        tour
+                        and Travels offers you various choices at little amount backed by a good service.
+
+                        We are members of Nepal tour and Travel Association and approved by Government of Nepal licensed
+                        by
+                        Tourism Department of Nepal. Our made expertise of 28 years and an expert team arrange your
+                        vacation
+                        during an admirable way. Our Travels offer best travel packages to destinations everywhere to
+                        Nepal.
+                        We have got packages to suit the discerning traveler's budget and savor. Book your dream
+                        vacation
+                        online. Supported quality and proposals of our travel consultants, we have a tendency to welcome
+                        you
+                        to decide on from holidays packages and customize them according to your plan.</p>
+
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4 ">
+                    <h3>Services provided</h3>
+
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">Hotel Bookings</div>
+                    </div>
+                    <br>
+                    <div class="card bg-success text-white">
+                        <div class="card-body">Transportation</div>
+                    </div>
+                    <br>
+                    <div class="card bg-info text-white">
+                        <div class="card-body">Domestic and International Air Travel</div>
+                    </div>
+                    <br>
+                    <div class="card bg-warning text-white">
+                        <div class="card-body">Conferences & Seminars</div>
+                    </div>
+                    <br>
+                    <div class="card bg-danger text-white">
+                        <div class="card-body">Certains offer</div>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+        </section>
+        <!-- ===why us=== -->
+        <section class="container">
+            <div class="text-center mt-4 mb-4">
+                <h2 class="text-primary" id="whyus">WHY US</h2>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="text-success">01.</h1>
+                    <h3>Experience</h3>
+                    <p>Our dedicated travel team diligently works round-the-clock to design the best travel experiences
+                        for
+                        the customers. The skilled team spends considerable amounts of time ideating tour packages that
+                        guarantee to make travelling with us an experience like no other. We select the finest hotels in
+                        every category, boast an excellent personal fleet of vehicles for transportation.</p>
+                </div>
+                <div class="col-4 ">
+                    <h1 class="text-success">02.</h1>
+                    <h3>Positive Customer Feedback</h3>
+                    <p>Our dedicated travel team diligently works round-the-clock to design the best travel experiences
+                        for
+                        the customers. The skilled team spends considerable amounts of time ideating tour packages that
+                        guarantee to make travelling with us an experience like no other. We select the finest hotels in
+                        every category, boast an excellent personal fleet of vehicles for transportation.</p>
+                </div>
+                <div class="col-4 ">
+                    <h1 class="text-success">03.</h1>
+                    <h3>Recognition</h3>
+                    <p>Our dedicated travel team diligently works round-the-clock to design the best travel experiences
+                        for
+                        the customers. The skilled team spends considerable amounts of time ideating tour packages that
+                        guarantee to make travelling with us an experience like no other. We select the finest hotels in
+                        every category, boast an excellent personal fleet of vehicles for transportation.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ===contact us==== -->
+        <section class="container">
+            <h2 class="text-primary text-center mt-4 mb-4" id="contactus">CONTACT US</h2>
+            <div class="row">
+                <div class="col-5 postman"></div>
+                <div class="col-5 bg-info">
+                    <form>
+                        <div class="mb-3 mt-3">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="mobile">Mobile:</label>
+                            <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number"
+                                name="mobile">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="comment">Comments:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="col-2"></div>
+        </section>
+    </main>
+    <!-- ======footer===========-->
+    <footer class="container-fluid bg-dark mt-5">
+        <div class="row">
+            <div class="col-1  pt-5 pb-4"></div>
+            <div class="col-3   pt-5 pb-4 mt-5 text-white h2 text-center">OUR<br>TOUR & TRAVEL</div>
+            <div class="col-2  pt-5 pb-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white h5">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#aboutus">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#whyus">Why us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactus">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2  pt-5 pb-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white h5">Follow us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa fa-facebook-square" style="font-size:26px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#aboutus"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#whyus"><i class="fa fa-skype" style="font-size:24px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactus"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="col-2  pt-5 pb-5 text-white mt-5">
+                <p class="h5 text-white"> ADDRESS & CONTACT</p>
+                <p class="text-white">inaruwa-6 ,sunsari (Nepal)
+                    <br>
+                    mobile:3786887557
+                    <br>
+                    Email:our123@gmail.com
+                </p>
+            </div>
+            <div class="col-2  pt-5 pb-5"></div>
+        </div>
+        <hr class="text-white">
+        <p class="text-center text-white pb-2">Copyright@123</p>
+
+    </footer>
+    <script>
+        var nav = document.querySelector("nav");
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+            } else {
+                nav.classList.remove('bg-dark', 'shadow');
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>

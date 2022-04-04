@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white h4 pt-3 pb-3 text-center fixed-top container-fluid">
+        Welcome to <span class="h3 text-decoration-underline">OUR</span> Tour and travel
+    </header>
+    <div id="bgSlide" class="carousel slide w-100 vh-50 banner-img " data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#bgSlide" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg3.jpg" alt="Los Angeles" class="d-block" style="width:100% ;height: 300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg1.jpg" alt="Chicago" class="d-block" style="width:100%;height: 300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg2.jpg" alt="New York" class="d-block" style="width:100%;height: 300px;">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#bgSlide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#bgSlide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="content text-center text-white position-absolute top-50  ">
+                <h5> Live with no excuses and</h5>
+                <h3>Travel with no regrets</h3>
+                <a href="index.html"  class="btn  btn-sm btn-danger">Back to Home page</a>
+            </div>
+            
+        </div>
+        <section class="container">
+        <div class=" row bg-secondary">
+            <h2 class="col-3 bg-success text-white  text-center pt-2 mt-2 pb-2 ">TRIP SEARCH</h2>
+            <div class="col-3 dropdown ">
+                    <button type="button" class="btn btn-primary  btn-lg dropdown-toggle mt-2 mb-2" data-bs-toggle="dropdown">
+                      Destination
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">pokhara</a></li>
+                      <li><a class="dropdown-item" href="#">Kathmandu</a></li>
+                      <li><a class="dropdown-item" href="#">Dharan</a></li>
+                      <li><a class="dropdown-item" href="#">Ilam</a></li>
+                      <li><a class="dropdown-item" href="#">Biratnagar</a></li>
+
+                    </ul>
+                  
+            </div>
+            <div class="col-3 dropdown ">
+                 <button type="button" class="btn btn-primary btn-lg dropdown-toggle mt-2 mb-2" data-bs-toggle="dropdown">
+                      Activities
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Treking</a></li>
+                      <li><a class="dropdown-item" href="#">Hiking</a></li>
+                      <li><a class="dropdown-item" href="#">Boating</a></li>
+                      <li><a class="dropdown-item" href="#">Mountaineering</a></li>
+                    </ul>
+                 
+                </div>
+            <div class="col-3 dropdown ">
+                    <button type="button" class="btn btn-primary btn-lg dropdown-toggle mt-2 mb-2" data-bs-toggle="dropdown">
+                      Season
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Summer</a></li>
+                      <li><a class="dropdown-item" href="#">Autumn</a></li>
+                      <li><a class="dropdown-item" href="#">Spring</a></li>
+                      <li><a class="dropdown-item" href="#">Winter</a></li>
+                    </ul>    
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <h4 class="text-center">Welcome to Nepal</h4>
+        <h2 class="text-center text-success">Amazing Tours And Trekking</h2>
+        <p class="text-center">Our Tour and travel  has decades of experience as a Nepal tour operator. We offer diverse attractions from the cultural jewels of the cities, Himalayan views, wildlife safari, and exploration of picturesque countryside. Travelers with all categories can enjoy their holiday tours in Nepal that embark on adventure lovers, honeymoon tours to the soft family tours with sightseeing and luxurious trips. Blue Himalaya is the perfect Nepal DMC</p>
+        
+    </section>
+    <section class="container image">
+        <h2 class="text-center text-primary mt-4 mb-4">Picture From Our Visitors</h2>
+        <div class="row ">
+            <div class=" col-4">
+                <img src="images/picture1.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture2.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture3.webp" alt="" height="80%" width="95%">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-4">
+                <img src="images/picture4.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture5.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture6.jpg" alt="" height="80%" width="95%">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-4">
+                <img src="images/picture7.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture8.jpg" alt="" height="80%" width="95%">
+            </div>
+            <div class=" col-4">
+                <img src="images/picture9.jpg" alt="" height="80%" width="95%">
+            </div>
+        </div>
+
+    </section>
+    <footer class="container-fluid bg-dark mt-5">
+        <div class="row">
+            <div class="col-1  pt-5 pb-4"></div>
+            <div class="col-3  pt-5 pb-4 mt-5 text-white h2 text-center">OUR<br>TOUR & TRAVEL</div>
+            <div class="col-2  pt-5 pb-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white h5">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Why us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 pt-5 pb-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white h5">Follow us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa fa-facebook-square" style="font-size:26px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#aboutus"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#whyus"><i class="fa fa-skype" style="font-size:24px"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactus"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2  pt-5 pb-5 text-white mt-5">
+                <p class="h5 text-white"> ADDRESS & CONTACT</p>
+                <p class="text-white">inaruwa-6 ,sunsari (Nepal)
+                    <br>
+                    mobile:3786887557
+                    <br>
+                    Email:our123@gmail.com
+                </p>
+            </div>
+            <div class="col-2  pt-5 pb-5"></div>
+        </div>
+        <hr class="text-white">
+        <p class="text-center text-white pb-2">Copyright@123</p>
+
+
+    </footer>
+    
+
+</body>
+
+</html>
